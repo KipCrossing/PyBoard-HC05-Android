@@ -4,7 +4,7 @@ Micropython code for the HC05 Bluetooth adaptor and an example application for a
 
 ##  main.py
 
-'''python
+'''ruby
 # code by Kipling
 print("(Main program started)")
 
