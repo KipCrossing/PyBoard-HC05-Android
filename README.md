@@ -62,7 +62,7 @@ while True:
 
 ```
 
-# MainActivity.java
+## MainActivity.java
 
 ```java
 
@@ -399,9 +399,9 @@ public class MainActivity extends Activity  {
 
 ```
 
-# activity_main.xml
+## activity_main.xml
 
-```java
+```xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
@@ -529,4 +529,33 @@ public class MainActivity extends Activity  {
 </RelativeLayout>
 
 ```
+## AndroidManifest.xml
 
+```xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kipling.bletooth">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+```
