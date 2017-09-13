@@ -5,7 +5,7 @@ Micropython code for the HC05 Bluetooth adaptor and an example application for a
 ##  main.py
 
 
-'''
+```python
 import pyb
 
 blue_uart = pyb.UART(2, 9600)
@@ -40,5 +40,5 @@ while True:
             print(line)
             blue_uart.write("You sent: " + line)
 
-'''
+```
 
