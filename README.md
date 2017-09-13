@@ -62,7 +62,7 @@ while True:
 
 ```
 
-#MainActivity.java
+# MainActivity.java
 
 ```java
 
@@ -397,6 +397,136 @@ public class MainActivity extends Activity  {
 }
 
 
+```
 
+# activity_main.xml
+
+```java
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:transitionGroup="true">
+
+    <TextView android:text="HC05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/Base.TextAppearance.AppCompat" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:onClick="connect"
+        android:id="@+id/button3"
+        android:layout_below="@+id/textview"
+        android:layout_alignLeft="@+id/buttonLEFT"
+        android:layout_alignStart="@+id/buttonLEFT" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UP"
+        android:onClick="up"
+        android:id="@+id/buttonUP"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textview"
+        android:layout_alignLeft="@+id/buttonDOWN"
+        android:layout_alignStart="@+id/buttonDOWN" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOWN"
+        android:onClick="down"
+        android:id="@+id/buttonDOWN"
+        android:layout_below="@+id/buttonLEFT"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEFT"
+        android:onClick="left"
+        android:id="@+id/buttonLEFT"
+        android:layout_below="@+id/buttonUP"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RIGHT"
+        android:onClick="right"
+        android:id="@+id/buttonRIGHT"
+        android:layout_below="@+id/buttonUP"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bluetooth_word"
+        android:text="Input text"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/buttonSEND"
+        android:layout_toStartOf="@+id/buttonSEND" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:onClick="write"
+        android:id="@+id/buttonSEND"
+        android:layout_alignBottom="@+id/bluetooth_word"
+        android:layout_alignLeft="@+id/buttonRIGHT"
+        android:layout_alignStart="@+id/buttonRIGHT" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Received Data"
+        android:id="@+id/textView2"
+        android:textColor="#ff34ff06"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/buttonRIGHT"
+        android:layout_alignEnd="@+id/buttonRIGHT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bluetooth_word" />
+
+</RelativeLayout>
 
 ```
+
