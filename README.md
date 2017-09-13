@@ -4,21 +4,10 @@ Micropython code for the HC05 Bluetooth adaptor and an example application for a
 
 ##  main.py
 
-'''ruby
-# code by Kipling
-print("(Main program started)")
-
-
+'''
 import pyb
 
-# HC05 connection with the PyBoard
-#
-# HC06 - PyBoard
-# --------------
-#  GND - GND
-#  VCC - VCC
-#  RXD - X3 (TX)
-#  TXD - x4 (RX)
+
 
 
 blue_uart = pyb.UART(2, 9600)
