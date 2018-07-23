@@ -2,22 +2,112 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/kipling/Programs/Bletooth/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/kipling/.android/build-cache/0e272dee62f8ae788d8c8603a9d7e6c180768326/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/home/kipling/Programs/Bletooth/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bc7e2917ea96847c1f07ff520b34e575b6bf169d/classes.dex" />
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/classes_bf8f7712397a0f07d98dfa81dc8cc3c7b980f7d1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/kipling/Programs/Bletooth/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/kipling/.android/build-cache/c093c42f1d6cfe95138d77e894dc70d50d778c4b/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="f2810dab4bc8453e08d86905a4a8da8ae34b6aa1">
-        <dex dex="/home/kipling/Programs/Bletooth/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_bd1b3a39e739fedd03fd4cb7e9b331db53c5c534/classes.dex" />
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/classes_a891ad472882ab340ef09aa3290ad2ae0f1ef346.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kipling/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_68b412bf71305a5e627f1a3211f2db1d1704b0f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kipling/.android/build-cache/0cf73fd8144ffd509da3b14014f4528cd779edf9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/classes_26ca6c8bef1e7466c6ecb949ee05e25b95add0fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kipling/.android/build-cache/18ee6b798e0feb104748a8654af51e7587512e23/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/classes_0056a8b2dd85f9685c6c01420f34e89d9c96f80a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kipling/.android/build-cache/ffa8429eff0ce07d36d711fa56430f7f1ed061a3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/classes_eb016de5d39aa77521303e93848d8f3d18af011b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kipling/.android/build-cache/94a359a1bb78dc286e5cc5f6116a3114d7004bd2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/classes_38f4494189eb179288f50fe0c3a63b4cfe7daf90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kipling/.android/build-cache/4246e5976562266a04fa0409e20cce3449d73f0c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/classes_4f791b5bc62c47cf9454ceb0ae92a95f94295ae3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kipling/.android/build-cache/6e8420e0ed9e4272037a11174732220cba663739/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/classes_97dd2cb7f40f843fc8f750d76d1f5e27c62e9b44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kipling/.android/build-cache/9f14b9015c91adca361c7685e92f41a8a9428f6f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/classes_a3fa55899ea82920663a5ee166d6ce3bd0dafcef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kipling/.android/build-cache/f25f8f7b781543373f5807414aed9f06e5de3929/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/classes_b9be89a221b3960250578546af7e71beb452e362.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kipling/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/kipling/Programs/PyBoard-HC05-Android/AndroidApp/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_7f6acc53b4dfc0bfb42eb713c55372c9483ac686.jar" />
     </item>
 
 </items>
